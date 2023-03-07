@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <h1>Top 10 Cocktails</h1>
+    </div>
+    <div class="dropdown">
+        <button onclick="dropDown()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+        </div>
+      </div>
+
+    <div id="cocktail-bar">
+      <!-- show cocktail names here -->
+    </div>
+
+    <div class="cocktailInfo">
+      <div id="detailed-info">
+        <p id="name">Cocktail's Name</p>
+        <img
+          id="image"
+          src="assets/dummy.gif"
+          alt="Cocktail's Name"
+        /><!-- display cocktail image here -->
+        <h4>Add review: <span id="review"></span></h4>
+        <form id="review -form">
+          <input type="text" placeholder="Add Review" id="votes" name="votes" />
+          <input type="submit" value="Add Review" />
+        </form>
+      </div>
+
+      <!-- Bonus only! Uncomment the elements below when you are ready to work on the bonus deliverables -->
+      <!-- 
+        <h4>Add New Character</h4>
+        <form id="character-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="image-url">Image URL</label>
+            <input type="text" id="image-url" name="image-url" />
+          </div>
+          <input type="submit" value="Add Character" />
+        </form> 
+      -->
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
